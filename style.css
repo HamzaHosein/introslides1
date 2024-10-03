@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+h1{
+    font-family: Verdana;
+    text-align: left;
+}
+p{
+    font-size: 20px;
+}
+
+
+.box1, .box2, .box3 {
+    background-color: azure;
+    padding: 40px;
+    padding-top: 1px;
+    boarder-radius: 8px;
+    box-shadow: 3px 3px 3px;
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+    position: relative;
+}
+
+
+
+
+.circular1, .circular2,.circular3{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
